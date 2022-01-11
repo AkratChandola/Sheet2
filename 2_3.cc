@@ -20,8 +20,6 @@ int main()
 	
 	for(i=0;i<=N;i++)
 	{
-		for(j=N;j>i;j--)
-			cout<<" ";
 		for(j=0;j<=i;j++)
 		{
 			k=fact(i)/(fact(j)*fact(i-j));
